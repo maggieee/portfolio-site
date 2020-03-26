@@ -7,6 +7,7 @@ import Home from './contents/Home';
 import Education from './contents/Education';
 import Projects from './contents/Projects';
 import Resume from './contents/Resume';
+import Fun from './contents/Fun';
 import Navbar from './components/Navbar';  
 
 function App() {
@@ -43,6 +44,12 @@ function App() {
 
     <Route path="/resume">
       <Resume />
+    </Route>
+
+    {/* Route for Fun.js contents */}
+
+    <Route path="/fun">
+      <Fun />
     </Route>
 
     </div>
