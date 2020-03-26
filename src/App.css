@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lora|Sen&display=swap");
 
 :root{
 --sidebar-flex:1.5;
@@ -14,8 +14,16 @@
 }
 
 body {
-  font-family: 'Raleway';
+  font-family: 'Sen';
 }
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Lora;
+}
+
+/* a {
+  font-style: oblique;
+} */
 
 .App {
   display: flex;
@@ -29,13 +37,14 @@ body {
   padding: 100px ;
   background-color: #f4f5f9;
   flex:var(--condiv-flex);
+  list-style-type: none;
 }
 
 nav {
   padding:60px 30px 0px 30px ;
   flex:var(--sidebar-flex);
-  background: rgb(238,103,143);
-  background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+  background: rgb(255, 46, 57);
+  background: linear-gradient(120deg, rgb(255, 162, 166) 50%, rgb(250, 180, 115) 80%);
 }
 
 nav ul {
@@ -67,11 +76,11 @@ nav ul li {
 .social i {
   padding-right: 30px;
   font-size: 25px;
-  color: #9a9b9c;
+  color: #ffffff;
 }
 
 .social i:hover {
-  color: #ffffff;
+  color: #ff4a2a;
 }
 
 /* css for the About section */

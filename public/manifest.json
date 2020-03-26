@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "portfolio",
+  "name": "Maggie Ronan's Portfolio",
+  "homepage": "https://maggieee.github.io/portfolio-site",
   "icons": [
     {
       "src": "favicon.ico",

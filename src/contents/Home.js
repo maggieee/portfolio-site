@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import profilepic from '../img/profile_photo.jpeg';
-import Social from '../components/Social'
-
 class Home extends Component {
-
 render() {
 return (
-
-<div className="condiv home">
+<div className="condiv">
 
 <img src={profilepic} className="profilepic"></img> <br></br>
 
-<ReactTypingEffect className="typingeffect" text={['I am Maggie Ronan','I am a web developer']} speed={100} eraseDelay={700}/>
-
-<Social />
-
+<ReactTypingEffect className="typingeffect" text={['Hi! I like this typing effect.']} speed={100} eraseDelay={700}/>
+{/* <h4>Hi!</h4> */}
+<h1>I'm Maggie Ronan</h1>
+<h3>Full Stack Web Developer</h3>
+<p>I got my first taste of working in tech doing marketing at a startup in 2009. There, I was first introduced to software engineering and thought to myself: "I want to be *making* the product that’s getting sold."
+<br></br><br></br>
+10 years and a variety of jobs and academic pursuits later, I am excited to be back on the software engineering career track. I hope to combine the software engineering skills I have cultivated at Hackbright Academy, along with elements from my previous background -- testing and tracking down bugs from QA, collaboration and prioritization of issues from Release Management, and caring about the frontend from Art/Fashion/Film -- to be a kick-butt teammate in my first Software Engineering role. 
+</p>
 </div>
 )
 }
 }
-
 export default Home
